@@ -158,7 +158,7 @@ card{
 .call {
   height: 80px;
   width: auto;
-  margin: 40px;
+  margin: 20px;
   margin-bottom: 50px;
 }
 .call:hover {
@@ -169,7 +169,7 @@ card{
 .email {
   height: 80px;
   width: auto;
-  margin: 40px;
+  margin: 20px;
   margin-bottom: 50px;
 }
 .email:hover {
@@ -225,7 +225,6 @@ hr {
 }
 
 footer {
-  margin:auto 0;
   display: flex;
   justify-content: center;
 }
