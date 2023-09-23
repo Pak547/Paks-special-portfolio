@@ -5,51 +5,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pak's Portfolio</title>
-<header>
-  <h1>
-    <div class="wavily">
-      <span style="--name:1">P</span>
-      <span style="--name:2">a</span>
-      <span style="--name:3">k</span>
-      <span style="--name:4">a</span>
-      <span style="--name:5">p</span>
-      <span style="--name:6">o</span>
-      <span style="--name:7">n</span>
-      <span style="--name:8">g</span>
-      <span id="dash">--</span>
-      <span>M</span>
-      <span>o</span>
-      <span>n</span>
-      <span>g</span>
-      <span>k</span>
-      <span>o</span>
-      <span>l</span>
+  <header>
+    <h1>
+      <div class="wavily">
+        <span style="--name:1">P</span>
+        <span style="--name:2">a</span>
+        <span style="--name:3">k</span>
+        <span style="--name:4">a</span>
+        <span style="--name:5">p</span>
+        <span style="--name:6">o</span>
+        <span style="--name:7">n</span>
+        <span style="--name:8">g</span>
+        <span id="dash">--</span>
+      <section>
+        <span class="lastname">M</span>
+        <span class="lastname">o</span>
+        <span class="lastname">n</span>
+        <span class="lastname">g</span>
+        <span class="lastname">k</span>
+        <span class="lastname">o</span>
+        <span class="lastname">l</span>
+      </section>
      </div>
   </h1>
-  <h2>Full-Stack Web Developer<br></h2>
-  <hero>
-    <img src="c:\Users\pakap\OneDrive\Pictures\VTFS8837.JPG" alt="It's a pic of me">
-  </hero>
-  <nav>
-    <div>
-    <ul>
-      <li><a href="">About me</a></li>
-      <li><a href="">Work</a></li>
-      <li><a href="">Contact me</a></li>
-      <li><a href="">Resume</a></li>
-    </div>
-    </ul>
-  </nav>
-</header>
+  <br>
+  <h3>Full-Stack Web Developer</h3>
+     <nav class="hero-text">
+        <div>
+          <ul>
+            <li><a href="#section-one">About me</a></li>
+            <li><a href="#section-two">Work</a></li>
+            <li><a href="#section-three">Contact me</a></li>
+            <li><a href="">Resume</a></li>
+          </ul>
+        </div>
+      </nav>
+    <hr>
+  </header>
 </head>
 
-<body>
-  <div>
-  <h3>About me</h3>
-  <card>
- I'm 24 years old, currently a student at UCB Full-Stack coding extension and expected to graduate March 2024. I'm an aspiring developer looking to make an impact in the world of coding.
-</card>
-  </div>
-  <footer>Contact me! </footer>
+<body class="background">
+  <section class="column">
+    <h2 id="section-one">About me</h2>
+    <card>
+    <img id="me" src="./images/IMG_0718.jpeg" alt="Beautiful pic of me">
+    <p>
+      I'm 25 years old, currently a student at UCB Full-Stack coding extension and expected to graduate March 2024. I'm an aspiring developer looking to make an impact and find fulfillment in the world of coding.
+    </p>
+    </card>
+  </section>
+  <hr>
+  <section>
+    <h2 id="section-two">Work</h2>
+      <card>
+            <a class="container" href="https://pak547.github.io/Hori-refactory-code/Develop/index.html" target="_blank" rel="noopener noreferrer">
+            <img id="first-project" src='./images/pak547.github.io_Hori-refactory-code_Develop_index.html.png' alt="1st project">
+          <div class="overlay">
+            <div class="image-text">Refactor Mock Website</div>
+          </div>
+        </a>
+      </card>
+  </section>
+  <section>
+    <h2>Resume</h2>
+    <card>
+      
+    </card>
+  </section>
+    <hr>
+  <footer>
+      <address id="section-three">
+        <a href="tel:+101.001.1001">📱</a>
+        <a class="mail" href="mailto:pakapongm@yahoo.com">📧</a>
+
+        <a href="https://github.com/Pak547" target="_blank" rel="noopener noreferrer">
+          <img class="gitlogo"src="./images/github-mark.png" alt="Github">
+        </a>
+
+        <a href="https://www.instagram.com/pakshmack/" target="_blank" rel="noopener noreferrer">
+          <img class="insta" src="./images/Instagram_Glyph_Gradient.png" alt="Instagram">
+        </a>
+
+        <a href="https://www.linkedin.com/in/pakapong-mongkol-a65028291/" target="_blank" rel="noopener noreferrer">
+          <img class="lilogo" src="./images/LI-Logo.png" alt="Linkedin">
+      </a>
+      </address>
+   <h1>Contact me!</h1> 
+  </footer>
 </body>
 </html>
