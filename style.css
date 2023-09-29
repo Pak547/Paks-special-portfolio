@@ -75,7 +75,7 @@ em {
   background-color: var(--black);
 }
 
-.rainbow:hover {
+.navbar:hover {
   filter: brightness(75%);
   transition: .3s;
 }
