@@ -111,9 +111,11 @@ body{
 
 card{
   display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*Transition for first project*/
- #first-project {
+  #project {
   box-shadow: inset 0 0 0 0 var(--grey);
   height: 40vh;
   width: 150%;
