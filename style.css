@@ -10,7 +10,6 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-/*Header (name) animation*/
 .wave {
   margin-top: 50px;
   position: relative;
@@ -114,7 +113,6 @@ card{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/*Transition for first project*/
   #project {
   box-shadow: inset 0 0 0 0 var(--grey);
   height: 40vh;
@@ -156,7 +154,6 @@ card{
 }
 
 
-/*Here starts footer logo selectors */
 .call {
   height: 80px;
   width: auto;
@@ -230,19 +227,21 @@ footer {
   display: flex;
   justify-content: center;
 }
-/* figure out the breakpoint*/
 @media all and (max-width:768px) {
   body {
     display: flex;
     display: inline;
     flex-wrap: wrap;
-
   }
   }
 
 
-/*All medias work except for handheld devices, so I'm attacking the breakpoint at this width*/
-@media (max-width:470px) {
+@media all and (max-width:470px) {
+  nav{
+    display: flex;
+    float: none;
+    justify-content: center;
+  }
   header {
     display:flex;
     display:inline;
@@ -254,7 +253,6 @@ footer {
   }
   .wave {
     display: flex;
-    flex-wrap: wrap;
     font-size: 0px;
   }
   }
@@ -273,7 +271,12 @@ footer {
   }
 
 
-@media (max-width:420px) {
+@media all and(max-width:420px) {
+  nav{
+    display: flex;
+    float: none;
+    justify-content: center;
+  }
   header {
     display:flex;
     display:inline;
@@ -308,7 +311,12 @@ footer {
   }
 
 
-@media (max-width:390px) {
+@media all and (max-width:390px) {
+  nav{
+    display: flex;
+    float: none;
+    justify-content: center;
+  }
   header {
     display:flex;
     display:inline;
@@ -338,7 +346,12 @@ footer {
   }
 }
 
-@media (max-width:375px) {
+@media all and (max-width:375px) {
+  nav{
+    display: flex;
+    float: none;
+    justify-content: center;
+  }
   header {
     display:flex;
     display:inline;
@@ -369,7 +382,12 @@ footer {
 }
 
 
-@media (max-width:360px) {
+@media all and (max-width:360px) {
+  nav{
+    display: flex;
+    float: none;
+    justify-content: center;
+  }
   header {
     display:flex;
     display:inline;
@@ -401,7 +419,12 @@ footer {
 }
 
 
-@media (max-width:412px) {
+@media all and (max-width:412px) {
+  nav{
+    display: flex;
+    float: none;
+    justify-content: center;
+  }
   header {
     display:flex;
     display:inline;
@@ -410,9 +433,6 @@ footer {
   p {
     display: flex;
     display: inline;
-  }
-  .wave {
-    margin-left: 22vw;
   }
   .container {
     margin: 0px;
@@ -431,6 +451,11 @@ footer {
 }
 
 @media (max-width:280px) {
+  nav{
+    display: flex;
+    float: none;
+    justify-content: center;
+  }
   header {
     display:flex;
     display:inline;
@@ -447,7 +472,7 @@ footer {
     margin: 0px;
     padding: 0px;
     font-size: 0px;
-    margin-left: 10vw;
+    display:grid
   }
   .container {
     margin: 0px;
