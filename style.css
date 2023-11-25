@@ -100,7 +100,7 @@ em {
 
 header div ul li {
     display: inline;
-    margin-left: 25px;
+    margin: 10px;
 }
 
 body{ 
@@ -255,6 +255,8 @@ footer {
     display: flex;
     font-size: 0px;
   }
+  #card1{
+    display: table;
   }
   .container {
     margin: 0px;
@@ -265,36 +267,100 @@ footer {
     margin: 8px;
     padding: 7px;
   }
-  nav {
-    margin: auto;
-    padding: auto;
-  }
+}
+  
 
-
-@media all and(max-width:420px) {
-  nav{
-    display: flex;
-    float: none;
-    justify-content: center;
+  
+  @media all and(max-width:420px) {
+    nav{
+      display: flex;
+      float: none;
+      justify-content: center;
+    }
+    #card1{
+      display: table;
+    }
+    header {
+      display:flex;
+      display:inline;
+      flex-wrap:wrap;
+    }
+    p {
+      display: flex;
+      display: inline;
+    }
+    .wave {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 0px;
+    }
+    .overlay {
+      max-width: 50px;
+      max-height: 50px;
+    }
+    .container {
+      margin: 0px;
+      padding: 0px;
+      width: 38vh;
+    }
+    #me {
+      margin: 8px;
+      padding: 7px;
+    }
   }
-  header {
-    display:flex;
-    display:inline;
-    flex-wrap:wrap;
+  
+  @media all and (max-width:412px) {
+    nav{
+      display: flex;
+      float: none;
+      justify-content: center;
+    }
+    #card1{
+      display: table;
+    }
+    header {
+      display:flex;
+      display:inline;
+      flex-wrap:wrap;
+    }
+    p {
+      display: flex;
+      display: inline;
+    }
+    .container {
+      margin: 0px;
+      padding: 0px;
+      width: 38vh;
+    }
+    #me {
+      margin: 8px;
+      padding: 7px;
+    }
   }
-  p {
-    display: flex;
-    display: inline;
-  }
-  .wave {
-    display: flex;
-    flex-wrap: wrap;
+  
+  @media all and (max-width:390px) {
+    nav{
+      display: flex;
+      float: none;
+      justify-content: center;
+    }
+    header {
+      display:flex;
+      display:inline;
+      flex-wrap:wrap;
+    }
+    p {
+      display: flex;
+      display: inline;
+    }
+    #card1{
+      display: table;
+    }
+    .wave {
+      display: flex;
+      flex-wrap: wrap;
     font-size: 0px;
   }
-  .overlay {
-    max-width: 50px;
-    max-height: 50px;
-  }
   .container {
     margin: 0px;
     padding: 0px;
@@ -303,46 +369,6 @@ footer {
   #me {
     margin: 8px;
     padding: 7px;
-  }
-  nav {
-    margin: auto;
-    padding: auto;
-  }
-  }
-
-
-@media all and (max-width:390px) {
-  nav{
-    display: flex;
-    float: none;
-    justify-content: center;
-  }
-  header {
-    display:flex;
-    display:inline;
-    flex-wrap:wrap;
-  }
-  p {
-    display: flex;
-    display: inline;
-  }
-  .wave {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0px;
-  }
-  .container {
-    margin: 0px;
-    padding: 0px;
-    width: 38vh;
-  }
-  #me {
-    margin: 8px;
-    padding: 7px;
-  }
-  nav {
-    margin: auto;
-    padding: auto;
   }
 }
 
@@ -352,6 +378,9 @@ footer {
     float: none;
     justify-content: center;
   }
+  #card1{
+    display: table;
+  }
   header {
     display:flex;
     display:inline;
@@ -375,10 +404,10 @@ footer {
     margin: 8px;
     padding: 7px;
   }
-  nav {
-    margin: auto;
-    padding: auto;
-  }
+  header div ul li {
+    display: inline;
+    margin: 8px;
+}
 }
 
 
@@ -388,6 +417,9 @@ footer {
     float: none;
     justify-content: center;
   }
+  #card1{
+    display: table;
+  }
   header {
     display:flex;
     display:inline;
@@ -407,48 +439,20 @@ footer {
     padding: 0px;
     width: 38vh;
   }
-  #me {
-    margin: 8px;
-    padding: 7px;
-  }
-  nav {
-    margin: auto;
-    padding: auto;
-  }
+  #me{
+   display: flex;
+  justify-content: center;
+ }
 
-}
-
-
-@media all and (max-width:412px) {
-  nav{
-    display: flex;
-    float: none;
-    justify-content: center;
-  }
-  header {
-    display:flex;
-    display:inline;
-    flex-wrap:wrap;
-  }
-  p {
-    display: flex;
+  header div ul li {
     display: inline;
-  }
-  .container {
-    margin: 0px;
-    padding: 0px;
-    width: 38vh;
-  }
-  #me {
-    margin: 8px;
-    padding: 7px;
-  }
-  nav {
-    margin: auto;
-    padding: auto;
-  }
- 
+    margin: 9px;
+    font-size: 23px;
 }
+
+}
+
+
 
 @media (max-width:280px) {
   nav{
@@ -479,13 +483,18 @@ footer {
     padding: 0px;
     width: 38vh;
   }
+  #card1{
+    display: table;
+  }
   #me {
     margin: 8px;
     padding: 7px;
   }
-  .section-three {
-    margin-left: 59px
-  }
+  header div ul li {
+    display: inline;
+    margin: 2px;
+    font-size: 19px;
+}
 }
 
 
