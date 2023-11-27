@@ -161,7 +161,7 @@ card{
   margin-bottom: 50px;
 }
 .call:hover {
-  filter: brightness(75%);
+  filter: brightness(80%);
   transition: 0.3s;
 }
 
@@ -172,7 +172,7 @@ card{
   margin-bottom: 50px;
 }
 .email:hover {
-  filter: brightness(75%);
+  filter: brightness(80%);
   transition: 0.3s;
 }
 
@@ -183,7 +183,7 @@ card{
   margin-bottom: 50px;
 }
 .insta:hover {
-  filter: brightness(75%);
+  filter: brightness(80%);
   transition: 0.3s;
 }
 
@@ -194,7 +194,7 @@ card{
   margin-bottom: 50px;
 }
 .gitlogo:hover {
-  filter: brightness(75%);
+  filter: brightness(80%);
   transition: 0.3s;
 }
 
@@ -207,7 +207,7 @@ card{
 }
 
 .lilogo:hover {
-  filter:brightness(75%);
+  filter:brightness(80%);
   transition: 0.3s;
 }
 
